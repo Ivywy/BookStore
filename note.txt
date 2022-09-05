@@ -1,0 +1,6 @@
+1. 创建django项目
+    django-admin startproject project_name
+2. 运行django项目
+    python .\manage.py runserver
+    或 python .\manage.py runserver 6000 指定端口
+    python .\manage.py runserver 0.0.0.0:6000 局域网内的其他端口也能访问
